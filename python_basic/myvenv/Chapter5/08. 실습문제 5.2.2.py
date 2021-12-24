@@ -17,6 +17,10 @@ data.append(x)
 x = int(input("7일차 턱걸이 횟수 >>>"))
 data.append(x)
 
+for i in range(1, 101):
+  x = int(input(i, "일차 턱걸이 횟수 >>>"))
+  data.append(x)
+
 total = data[0] + data[1] + data[2] + data[3] + data[4] + data[5] + data[6]
 avg = total / 7
 
