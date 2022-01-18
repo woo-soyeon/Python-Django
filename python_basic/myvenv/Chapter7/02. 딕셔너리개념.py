@@ -44,7 +44,7 @@ stock_d = {
 for item in stock_d.items():
   print(item)
 
-# keys() :키
+# keys() : 키
 for key in stock_d.keys():
   print(key)
 
